@@ -1,31 +1,35 @@
+<head>
+    <link href="css/bootstrap.css" type="text/css" rel="stylesheet" />
+</head>
 <style>
-.menu {
+h1 { margin-bottom: 0; padding-bottom: 0; }
+.right ul{
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    margin: 0; padding: 0;
     overflow: hidden;
-    background-color: darkturquoise;
    }
-   
-   .menu li {
-    float: left;
-   }
+.right li { margin-left: auto; margin-right: auto; }
    
    .menu li a {
     display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
+    color: #707070;
+    text-align: center; padding: 14px 16px;
     text-decoration: none;
    }
-   
-   .menu li a:hover {
-    background-color: lightskyblue;
-   }
 </style>
-<ul class='menu'>
-    <li><a class="active" href="#home">Home</a></li>
-    <li><a href="#about">About</a></li>
-    <li><a href="#blog">Blog</a></li>
-    <li><a href="#contact">Contact</a></li>
-   </ul>
+
+<nav class="container">
+    <div class="left col-xs-5">
+        <h1><span class="txt-green">Graphics</span>Umbrella</h1><br>
+        <span><b>Premium style Free graphics</b></span>
+    </div>
+    <div class="right hidden-xs hidden-sm col-md-7">
+        <ul class="menu">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="news.html">NEWS</a></li>
+            <li><a href="products.html">PRODUCTS</a></li>
+            <li><a href="features.html">FEATURES</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+    </div>
+</nav>

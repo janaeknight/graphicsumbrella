@@ -1,33 +1,34 @@
-body a {
-    color: inherit; text-decoration: none !important;
+body { 
+    background-image: url("https://i.ibb.co/txbHP2h/dots.png");
+    background-repeat: auto; color: #707070;
 }
+body a { color: inherit; text-decoration: none !important; }
 
+/*~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-
+// REFERENCES: 
+        || Background Image (PAGE) : https://i.ibb.co/txbHP2h/dots.png
+        || Special Font: font-family: 'Poiret One', cursive;
+        || Color Scheme: 
+            #707070 (gray, text)
+            #9AC057 (main, green)
+            #A0C63F (secondary main, green)
+            #FFFFFF (third, green)
 /*~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-*/
+
+h1, h2 ,h3, h4, h5, h6 { font-family: 'Poiret One', cursive; padding: none !important; margin: none !important;}
+.txt-t1 { font-size: 22px; } .txt-t2 { font-size: 18px; }
 .txt-c { font-family: 'Poiret One', cursive; }
-.txt-center { text-align: center; }
+.txt-s { font-family: 'Poiret One', cursive; }
+.txt-center { text-align: center; } .txt-right { text-align: right; }
 .txt-green { color: #98BF3E; }
 
-/* Menu */
-.menu {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: darkturquoise;
-   }
-   
-   .menu li {
-    float: left;
-   }
-   
-   .menu li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-   }
-   
-   .menu li a:hover {
-    background-color: lightskyblue;
-   }
+.margin img { margin-left: auto; margin-right: auto; }
+.radius { border-radius: 50px; }
+
+.cb1 img { 
+    margin-left: auto; margin-right: auto;
+    padding: 20px; background-color: snow;
+    border-radius: 100%; border: 1px solid silver; }
+
+button { background-color: #8EB53E; border: none; padding: 10px; border-radius: 100%; }
+button img { border-radius: 100%; }

@@ -7,7 +7,6 @@
     <title>Graphics Umberella - Demo</title>
     <link href="css/bootstrap.css" type="text/css" rel="stylesheet" />
     <link href="css/style.css" type="text/css" rel="stylesheet" />
-    <script src="java/javascript.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css?family=Poiret+One&display=swap" rel="stylesheet">
 </head>
@@ -17,7 +16,91 @@
          $( "#header" ).load( "header.html" );
         });
     </script>
-     <div id='header'></div>
-     <div class='content'>Content</div>
+    <div id='header'></div>
+    <div class="cb1 container txt-center txt-s">
+        <div class="row hidden-xs">
+            <div class="col-sm-3">
+                <img src="css/media/icon-recycle.gif" alt="" class="img-responsive"><br>
+                <span class="txt-t1">AMAZING</span><br>
+                <span class="txt-t2">Support</span>
+            </div>
+            <div class="col-sm-3">
+                <img src="css/media/icon-phone.gif" alt="" class="img-responsive"><br>
+                <span class="txt-t1">24 HOUR</span><br>
+                <span class="txt-t2">Availability</span>
+            </div>
+            <div class="col-sm-3">
+                <img src="css/media/icon-cog.gif" alt="" class="img-responsive"><br>
+                <span class="txt-t1">WEB</span><br>
+                <span class="txt-t2">Design</span>
+            </div>
+            <div class="col-sm-3">
+                <img src="css/media/icon-mobile.gif" alt="" class="img-responsive"><br>
+                <span class="txt-t1">MOBILE</span><br>
+                <span class="txt-t2">Development</span>
+            </div>
+        </div>
+        <div class="row visible-xs">
+            <div class="row">
+                <div class="col-xs-6">
+                    <img src="css/media/icon-recycle.gif" alt=""class="img-responsive"><br>
+                    <span class="txt-t1">AMAZING</span><br>
+                    <span class="txt-t2">Support</span>
+                </div>
+                <div class="col-xs-6">
+                    <img src="css/media/icon-phone.gif" alt="" class="img-responsive"><br>
+                    <span class="txt-t1">24 HOUR</span><br>
+                    <span class="txt-t2">Availability</span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-6">
+                    <img src="css/media/icon-cog.gif" alt="" class="img-responsive"><br>
+                    <span class="txt-t1">WEB</span><br>
+                    <span class="txt-t2">Design</span>
+                </div>
+                <div class="col-xs-6">
+                    <img src="css/media/icon-mobile.gif" alt="" class="img-responsive"><br>
+                    <span class="txt-t1">MOBILE</span><br>
+                    <span class="txt-t2">Development</span>
+                </div>
+            </div>
+        </div>
+    </div> <!--cb1-->
+    <div class="cb2 container">
+        <h2><b>RECENT FROM <span class="txt-green">PORTFOLIO</span></b></h2>
+    </div> <!--cb2-->
+    <div class="cb3 container">
+        <h2><b>OUR MAJOR <span class="txt-green">ADVERTISERS</span></b></h2>
+        <div class="row hidden-xs">
+            <a href="#link"><img src="css/media/water.jpg" alt="watermelocious ad" class="img-responsive col-sm-2"></a>
+            <a href="#link"><img src="css/media/plant.jpg" alt="plantcloud ad" class="img-responsive col-sm-2"></a>
+            <a href="#link"><img src="css/media/inspired.jpg" alt="" class="img-responsive col-sm-2"></a>
+            <a href="#link"><img src="css/media/bird.jpg" alt="inspired template ad" class="img-responsive col-sm-2"></a>
+            <a href="#link"><img src="css/media/man.jpg" alt="bird fly ad" class="img-responsive col-sm-2"></a>
+            <a href="#link"><img src="css/media/solid.jpg" alt="solid society ad" class="img-responsive col-sm-2"></a>
+        </div>
+        <div class="row visible-xs">
+            <a href="#link"><img src="css/media/water.jpg" alt="watermelocious ad" class="img-responsive col-xs-4"></a>
+            <a href="#link"><img src="css/media/plant.jpg" alt="plantcloud ad" class="img-responsive col-xs-4"></a>
+            <a href="#link"><img src="css/media/inspired.jpg" alt="" class="img-responsive col-xs-4"></a>
+        </div>
+        <div class="row visible-xs">
+            <a href="#link"><img src="css/media/bird.jpg" alt="inspired template ad" class="img-responsive col-xs-4"></a>
+            <a href="#link"><img src="css/media/man.jpg" alt="bird fly ad" class="img-responsive col-xs-4"></a>
+            <a href="#link"><img src="css/media/solid.jpg" alt="solid society ad" class="img-responsive col-xs-4"></a>
+        </div>
+        <div class="row txt-right">
+                <button onclick="scrollToTop()"> 
+                        <img src="css/media/up.gif" alt="scroll to top" class="img-responsive">
+                    </button> 
+            <script> 
+                function scrollToTop() { 
+                    window.scrollTo(0, 0); 
+                } 
+            </script>
+        </div>
+    </div> <!--cb3-->
+    <div id="footer"></div>
 </body>
 </html>
