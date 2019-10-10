@@ -31,8 +31,8 @@ h1, h2 ,h3, h4, h5, h6 { font-family: 'Poiret One', cursive; padding: none !impo
     padding: 20px; background-color: snow;
     border-radius: 100%; border: 1px solid silver; }
 
-button { background-color: #8EB53E; border: none; padding: 10px; border-radius: 100%; }
-button img { border-radius: 100%; }
+.totop button { background-color: #8EB53E; border: none; padding: 10px; border-radius: 100%; }
+.totop button img { border-radius: 100%; }
 
 .blogwrap { margin-bottom: 30px; border: 1px solid silver; }
 .blogpost a { 
