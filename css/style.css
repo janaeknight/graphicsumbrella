@@ -14,6 +14,7 @@ body a { color: inherit; text-decoration: none !important; }
             #A0C63F (secondary main, green)
             #FFFFFF (third, green)
 /*~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-*/
+/*                  ⤥ N/A Edge Compl. ⤦ */
 @keyframes heroslide {
     0% { left: 0%; }
     20% { left: 0%; }
@@ -36,6 +37,7 @@ div#hero figure {
     font-size: 0;
     animation: 20s heroslide infinite; 
 }
+/*~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-*/
 h1, h2 ,h3, h4, h5, h6 { font-family: 'Poiret One', cursive; padding: none !important; margin: none !important;}
 .txt-t1 { font-size: 22px; } .txt-t2 { font-size: 18px; }
 .txt-c { font-family: 'Poiret One', cursive; }
