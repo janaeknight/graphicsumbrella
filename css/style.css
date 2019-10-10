@@ -64,7 +64,7 @@ h1, h2 ,h3, h4, h5, h6 { font-family: 'Poiret One', cursive; padding: none !impo
 }
 
 .newsbox {
-    border: 2px solid lightslategrey;
+    border: 2px solid #EEEEEE;
     padding-top: 10px; padding-bottom: 60px;
 }
 .taglinks {
