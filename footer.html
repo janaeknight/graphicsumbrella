@@ -1,6 +1,7 @@
 <head>
     <link href="css/bootstrap.css" type="text/css" rel="stylesheet" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" type="text/css" rel="stylesheet" />
+    <link href="css/style.css" type="text/css" rel="stylesheet" />
 </head>
 <style>
     box {
@@ -8,6 +9,8 @@
     }
     .icons a { font-size: 22px; padding-right: 10px; }
     .archives a { border-bottom: 1px dotted gray;  margin-top: 20px; }
+    .contacti i { font-size: 22px; color: silver; }
+    .subscribe button { background-color: greenyellow; color: snow; }
 </style>
 
 
@@ -33,8 +36,21 @@
     </div>
     <div class="col-sm-3">
         <h4>CONTACT US</h4>
+        <div class="contacti"><i class="fa fa-envelope-o"></i><span>      info@premiumcoding.com</span></div>
+        <div class="contacti"><i class="fa fa-phone"></i><span>      800 756 156</span></div>
+        <div class="contacti"><i class="fa fa-mobile"></i><span>      +38648007561</span></div>
     </div>
     <div class="col-sm-3">
-        <h4>SIGN TO NEWSLETTER</h4>
+        <div class="newsletterform">
+            <h4>SIGN TO NEWSLETTER</h4>
+            <form>
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="Email">
+            </form>
+            <button type="button" id="subscribe">SUBSCRIBE</button>
+        </div> <!--newsletterform-->
+        <div class="newslettersubmit">
+
+        </div><!--newslettersubmit-->
     </div>
 </div>
