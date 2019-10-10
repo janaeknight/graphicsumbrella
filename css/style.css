@@ -21,7 +21,7 @@ h1, h2 ,h3, h4, h5, h6 { font-family: 'Poiret One', cursive; padding: none !impo
 .txt-s { font-family: 'Poiret One', cursive; }
 .txt-center { text-align: center; } .txt-right { text-align: right; }
 .txt-green { color: #98BF3E; }
-.txt-gray { color: gray; }
+.txt-silver { color: silver; }
 
 .margin img { margin-left: auto; margin-right: auto; }
 .radius { border-radius: 50px; }
@@ -40,7 +40,10 @@ button img { border-radius: 100%; }
     color: snow; background-color: #8DB53C;
 }
 
-.newsbox { border: 2px solid lightslategrey; padding: 10px; }
+.newsbox {
+    border: 2px solid lightslategrey;
+    padding-top: 10px; padding-bottom: 60px;
+}
 article { 
     margin-top: 30px; margin-right: 65px; 
     border-bottom: 5px dotted gray; }
