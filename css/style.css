@@ -32,3 +32,9 @@ h1, h2 ,h3, h4, h5, h6 { font-family: 'Poiret One', cursive; padding: none !impo
 
 button { background-color: #8EB53E; border: none; padding: 10px; border-radius: 100%; }
 button img { border-radius: 100%; }
+
+.blogwrap { margin-bottom: 30px; border: 1px solid silver; }
+.blogpost a { 
+    padding: 3px 6px; margin-right: 10px;
+    color: snow; background-color: #8DB53C;
+}
