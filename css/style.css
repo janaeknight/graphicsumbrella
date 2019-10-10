@@ -34,7 +34,7 @@ div#hero figure {
     left: 0;
     text-align: left;
     font-size: 0;
-    animation: 15s heroslide infinite; 
+    animation: 20s heroslide infinite; 
 }
 h1, h2 ,h3, h4, h5, h6 { font-family: 'Poiret One', cursive; padding: none !important; margin: none !important;}
 .txt-t1 { font-size: 22px; } .txt-t2 { font-size: 18px; }
