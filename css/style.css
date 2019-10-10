@@ -24,7 +24,7 @@ h1, h2 ,h3, h4, h5, h6 { font-family: 'Poiret One', cursive; padding: none !impo
 
 .margin img { margin-left: auto; margin-right: auto; }
 .radius { border-radius: 50px; }
-
+.cb { padding-top: 25px; }
 .cb1 img { 
     margin-left: auto; margin-right: auto;
     padding: 20px; background-color: snow;
